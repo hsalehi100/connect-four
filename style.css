@@ -1,0 +1,58 @@
+.grid{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 360px;
+    width: 420px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 620px;
+    height: 560px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.grid-text {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.grid div {
+    height: 60px;
+    width: 60px;
+}
+
+.player-one {
+    background-color: red;
+    border-radius: 30px;
+}
+
+.player-two {
+    background-color: blue;
+    border-radius: 30px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.resetBtn {
+    text-align: center;
+    margin-top: 20px;
+}
